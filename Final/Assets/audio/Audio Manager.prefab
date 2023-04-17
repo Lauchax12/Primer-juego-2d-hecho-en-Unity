@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4034500143196815664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4034500143196815671}
+  - component: {fileID: 4034500143196815670}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4034500143196815671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4034500143196815664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.336315, y: 3.16008, z: -125.89257}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4034500143196815670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4034500143196815664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22d58b874444f3e4fa2af301a45a17ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonidos:
+  - name: Musica
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: daa92f37282055740809f7e854793e20, type: 3}
+    volume: 0.19
+    pitch: 1
+    playOnAwake: 1
+    loop: 0
+  - name: laser
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 40aaf2835e150944db4152e3f47dc709, type: 3}
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - name: recarga
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: ca1eefbaa081d0548902ef1a28be159c, type: 3}
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - name: enemigo muerto
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: acdc1891fa1412643a1e737a4560ae0d, type: 3}
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - name: bala chocando
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: dc8ebaecc98bc184c9e89ad91167b5e7, type: 3}
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - name: 
+    source: {fileID: 0}
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - name: 
+    source: {fileID: 0}
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0

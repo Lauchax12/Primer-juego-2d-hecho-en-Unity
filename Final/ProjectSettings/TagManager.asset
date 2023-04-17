@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - izq
+  - der
+  - arriba
+  - abajo
+  - TagA
+  - TagB
+  - actene
+  - TagD
+  - TagC
+  - TagF
+  - caja
+  - torreta1
+  - meta
+  - puerta1
+  - puerta2
+  - Undefined
+  - popup
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - wall
+  - bullet
+  - activadores
+  - enemigo
+  - puerta
+  - activar enemigos
+  - activar
+  - item
+  - extra
+  - aim
+  - aim 2
+  - enemy bullet
+  - torreta
+  - hitbox
+  - key
+  - puertak1
+  - key2
+  - puertak2
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
